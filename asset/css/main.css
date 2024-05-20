@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/asset/img/fondo\ login.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+#login {
+  position: absolute;
+  width: 25%;
+  height: 80%;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1.5em;
+  background-color: rgb(88, 211, 160);
+  right: 0;
+  left: 0;
+  top: 70px;
+  margin: auto;
+}
+.control {
+  outline: 0 none;
+  width: 90%;
+  padding: 0.9em;
+  border-radius: 10px;
+  background-color: cornsilk;
+}
+
+#login h1 {
+  text-align: center;
+  margin-bottom: 2px;
+  font-family: "Poetsen One", sans-serif;
+}
+#login #form {
+  margin-bottom: 20px; /*margen en la parte inferior*/
+}
+#form {
+  text-align: center;
+}
+
+#login #form label {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9em;
+}
+#login #Btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+#login #Btn {
+  font-family: "Poetsen One", sans-serif;
+  margin-top: auto;
+}
+#Btn a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.Btn_success {
+  padding: 10px;
+  width: 50px;
+  border-radius: 48px;
+  font-size: 14px;
+  font-style: oblique;
+  
+}
+.Btn_recordar {
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+  margin-top: auto;
+  padding: 8%;
+}
+.button-recordar{
+  background-color: rgb(187, 124, 124);
+  width: 132px;
+  height: 38px;
+  border-radius: 48px;
+  justify-content: center;
+  text-align: center;
+}
+.button-ingresar{
+  background-color: rgb(111, 212, 111);
+  width: 132px;
+  height: 38px;
+  border-radius: 48px;
+  font-size: 14px;
+}
+
+.Btn_success i {
+  color: rgba(173, 58, 58, 0.555);
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+.img-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 120px;
+}
