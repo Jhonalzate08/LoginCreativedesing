@@ -111,3 +111,21 @@ body {
   height: 50px;
   margin-left: 120px;
 }
+.google{
+  margin-left: 22%;
+  margin-top: 30%;
+  
+}
+.btn-google{
+  background-color: rgb(88, 211, 160);
+  border-style: none;
+}
+.google-txt{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.google-txt img{
+  width: 20px;
+  height: 20px;
+}
